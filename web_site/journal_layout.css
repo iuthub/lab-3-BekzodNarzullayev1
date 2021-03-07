@@ -1,0 +1,58 @@
+body {
+    background-image: url("https://picsum.photos/1000/800");
+    /*background-image: url("http://www.cs.washington.edu/education/courses/190m/09sp/labs/2‐journal/images/background.gif");*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.parent {
+    border: 10px solid white;
+    background-color: white;
+    margin: 10px 10%;
+}
+
+.size-14 {
+    font-size: 14pt;
+}
+
+
+.border-red {
+    border: 5px solid #A8F0F0;
+    text-align: right;
+    background-color: #A8F0F0;
+}
+
+.border-red h2 {
+    /*border: 5px solid orange;*/
+}
+
+.border-blue {
+    display: flex;
+    margin: 10px 0 0 0;
+    padding: 5px;
+    border: 4px solid #C2E9E9;
+    background-color: #E8FBFB;
+}
+
+.border-blue h2 span {
+    border-bottom: 2px dashed blue;
+}
+
+
+.friends {
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 5px;
+    background-color: #99e0e0;
+    border: 5px solid #009097;
+}
+
+.friends ul li{
+    margin-bottom: 5px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
